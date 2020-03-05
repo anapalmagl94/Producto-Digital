@@ -1,0 +1,66 @@
+.fadeIn {
+  animation-duration: 4s; /*la animación que va a tener, tiempo*/
+  animation-fill-mode: both; /*atributo, define los keyframes de ida y de regreso*/
+  animation-name: fadeIn; /*le da un nombre a nuestra animación*/
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+.fadeInDown{
+  animation-duration: 1s; /*la animación que va a tener, tiempo*/
+  animation-fill-mode: both; /*atributo, define los keyframes de ida y de regreso*/
+  animation-name: fadeInDown; /*le da un nombre a nuestra animación*/
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+from {
+  opacity: 0;
+  -webkit-transform: translate3D(0, -100%, 0);
+  transform: translate3D(0, -100%, 0);
+}
+  to{
+    opacity: 1;
+    -webkit-transform: translate3D(0, 0%, 0);
+    transform: translate3D(0, 0%, 0);
+  }
+
+}
+
+.fadeInUp{
+  animation-duration: 1s; /*la animación que va a tener, tiempo*/
+  animation-fill-mode: both; /*atributo, define los keyframes de ida y de regreso*/
+  animation-name: fadeInUp; /*le da un nombre a nuestra animación*/
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+from {
+  opacity: 0;
+  -webkit-transform: translate3D(0, 100%, 0);
+  transform: translate3D(0, 100%, 0);
+}
+  to{
+    opacity: 1;
+    -webkit-transform: translate3D(0, 0%, 0);
+    transform: translate3D(0, 0%, 0);
+  }
+
+}
+
+
+}
